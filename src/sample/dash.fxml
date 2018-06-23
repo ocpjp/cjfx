@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ButtonBar?>
+<HBox  fx:id="ap" prefHeight="500" prefWidth="500" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DashController">
+   <children>
+      <VBox  fx:id="vb" layoutX="4.0" prefHeight="900.0" minWidth="170.0" prefWidth="170.0">
+         <children>
+             <JFXButton fx:id="current" onMouseClicked="#test" prefHeight="35.0" prefWidth="173.0" text="Current Task" textAlignment="CENTER" textFill="white" />
+             <JFXButton fx:id="completed" onMouseClicked="#test1" prefHeight="35.0" prefWidth="173.0" text="Completed Task" textAlignment="CENTER" textFill="white" />
+             <JFXButton fx:id="performance" onMouseClicked="#test2" prefHeight="35.0" prefWidth="173.0" text="Performance" textAlignment="CENTER" textFill="white" />
+             <JFXButton fx:id="profile" onMouseClicked="#test3" prefHeight="35.0" prefWidth="173.0" text="Profile" textAlignment="CENTER" textFill="white" />
+             <JFXButton fx:id="ask" onMouseClicked="#test4" prefHeight="35.0" prefWidth="173.0" text="Ask" textAlignment="CENTER" textFill="white" />
+             <JFXButton fx:id="about" onMouseClicked="#test5" prefHeight="35.0" prefWidth="173.0" text="About" textAlignment="CENTER" textFill="white" />
+         </children>
+      </VBox>
+      <AnchorPane fx:id="vb1" minWidth="5000" minHeight="500" prefHeight="Infinity" prefWidth="Infinity">
+        <children>
+
+
+            </children>
+        </AnchorPane>
+   </children>
+</HBox>
